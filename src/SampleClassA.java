@@ -7,8 +7,13 @@ public class SampleClassA {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println("Hellow world");
+		print("Hellow world !");
 		
 	}
 
+	
+	public static void print(String str) {
+		System.out.println(str);
+	}
+	
 }
